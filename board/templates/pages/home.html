@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block header %}
+<<<<<<< HEAD
+    <h2>{% block title %}Home{% endblock title %}</h2>
+{% endblock header %}
+
+{% block content %}
+    <p>
+        Learn more about this project by visiting the
+        <a href="{{ url_for('pages.about') }}">About page</a>.
+    </p>
+=======
+  <h2>{% block title %}Home{% endblock title %}</h2>
+{% endblock header %}
+
+{% block content %}
+  <p>
+    Learn more about this project by visiting the
+    <a href="{{ url_for('pages.about') }}">About page</a>.
+  </p>
+>>>>>>> a6a3d88 (Initial commit project Flask message board)
+{% endblock content %}
